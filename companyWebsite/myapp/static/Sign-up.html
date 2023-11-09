@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="view" content="with=device-width, initial-scale=1.0">
+    <title>ThirdEye Technologies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="Company photo2.png" class="profile"></a>
+        <h3 class="com-name">ThirdEye Technologies</h3>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Sign Up</h1>
+    
+    </section>
+    <section>
+      <div class="login-col">
+
+        <form action="" method="post">
+          <h5>Sign-Up</h5>
+          <input type="text" placeholder=" First Name" required>
+          <input type="text" placeholder=" Last Name" required>
+          <input type="password" placeholder=" Password" required>
+          
+          <input type="password" placeholder=" Confrim Password" required>
+
+          <input type="date" placeholder=" DOB" required>
+          <input type="email" placeholder=" Email" required>
+          <input type="number" placeholder=" Mobile Number" required>
+          <input type="number" placeholder=" OTP-Verification" required>
+          
+          <button type="submit" class="hero-btn red-btn">Sign-Up</button>
+        
+        </form>
+        
+     
+      <div class="login1">
+        <p>Already you have account</p>
+        <a href="login.html" class="hero-btn red-btn login2">Login
+        </a>
+      </div>
+    </div>
+
+    </section>
+
+  
+  
+<!--------Footer------->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>THIRD EYE is a certified (ISO 9001:2015), IAF, DAC, which is accredit in the software development, industrial seminars, technical training oriented programs. We are extending the relationship with our clients and make familiar in the world around your customers through the digital marketing sectors. Our support is also providing in the optimizing your website in popular search engines that we are certified by the “Google”.</p>
+  <div class="icons">
+    <i class="fa fa-facebook-square"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made By <i class="fa fa-heart-o"></i> NAGARAJ S</p>
+</section>
+
+<!--JAVASCRIPT for menu-->
+    <script>
+      var navLinks=document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0"
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px"
+      }
+    </script>
+  </body>
+</html>

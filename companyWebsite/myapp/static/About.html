@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="view" content="with=device-width, initial-scale=1.0">
+    <title>ThirdEye Technologies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="Company photo2.png" class="profile"></a>
+        <h3 class="com-name">ThirdEye Technologies</h3>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    
+    </section>
+<!-------about us content----------->
+
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>We are the World's largest Technologies</h1>
+      <p>THIRD EYE is a certified (ISO 9001:2015), IAF, DAC, which is accredit in the software development, industrial seminars, technical training oriented programs. We are extending the relationship with our clients and make familiar in the world around your customers through the digital marketing sectors. Our support is also providing in the optimizing your website in popular search engines that we are certified by the “Google”.</p>
+      <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+      <img src="about.jfif" >
+    </div>
+    
+  </div>
+  <div class="row">
+    <div class="about-col">
+      <h1>Trusted Institution</h1>
+      <p>We believe on teamwork among our clients to make a tremendous success that associated with different fields of clients in the development sectors like as banking, educational, automation, production, manufacturing fields. Especially, we are collaborating with 180+ clients and 2000+ projects on across the world like Japan, Singapore, China, and Germany.</p>
+      <a href="" class="hero-btn red-btn">Read More</a>
+    </div>
+    <div class="about-col">
+      <img src="bg3.jfif" >
+    </div>
+    
+  </div>
+</section>
+
+<!--------Footer------->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>THIRD EYE is a certified (ISO 9001:2015), IAF, DAC, which is accredit in the software development, industrial seminars, technical training oriented programs. We are extending the relationship with our clients and make familiar in the world around your customers through the digital marketing sectors. Our support is also providing in the optimizing your website in popular search engines that we are certified by the “Google”.</p>
+  <div class="icons">
+    <i class="fa fa-facebook-square"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made By <i class="fa fa-heart-o"></i> NAGARAJ S</p>
+</section>
+
+<!--JAVASCRIPT for menu-->
+    <script>
+      var navLinks=document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0"
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px"
+      }
+    </script>
+  </body>
+</html>
